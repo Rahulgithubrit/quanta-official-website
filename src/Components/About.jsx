@@ -14,7 +14,7 @@ function About() {
             <h1 className="about__heading">About Us</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                <span>QUANTA</span> is a part of departmental association, the
+                <span>Quanta</span> is a part of departmental association, the
                 main motto of quanta is to develop a hands on technical
                 knowledge that encourages a person to move on with logical
                 aptitude and to have a good command over Robotics & Embedded

@@ -21,9 +21,9 @@ function Department() {
         <img className="img3" alt="" src={img3} />
         <h1 className="wed_development">web Development</h1>
         <h3 className="about_text">
-          Here at <span className="quan">QUANTA</span> we have three{" "}
+          Here at <span className="quan">Quanta</span> we have three{" "}
           departments namely Technical, Design and
-          Web Development. Were we work and learn together and
+          Web Development where we work, learn together and
           work on some awesome
           projects.
         </h3>
