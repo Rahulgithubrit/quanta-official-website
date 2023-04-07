@@ -1,4 +1,4 @@
-import styles from "./Teamcard.module.css";
+import styles from "../styles/Teamcard.module.css";
 
 export default function Teamcard({ props }) {
   return (

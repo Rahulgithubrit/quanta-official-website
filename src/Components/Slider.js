@@ -1,7 +1,7 @@
 // NOTE: Minimum 2 elements required for slider to work properly!
 
 import { useState } from "react";
-import styles from "./Slider.module.css";
+import styles from "../styles/Slider.module.css";
 
 const Slider = ({ src, sliderTitle }) => {
   const [currIndex, setCurrIndex] = useState(0);
@@ -45,7 +45,7 @@ const Slider = ({ src, sliderTitle }) => {
             <img
               className={styles.card}
               key={index}
-              src={item.img}
+              src={process.env.PUBLIC_URL + item.img}
               alt={`${item.subtext}`}
             />
           ))}
@@ -53,7 +53,7 @@ const Slider = ({ src, sliderTitle }) => {
             <img
               className={styles.card}
               key={index}
-              src={item.img}
+              src={process.env.PUBLIC_URL + item.img}
               alt={`${item.subtext}`}
             />
           ))}
@@ -61,7 +61,7 @@ const Slider = ({ src, sliderTitle }) => {
             <img
               className={styles.card}
               key={index}
-              src={item.img}
+              src={process.env.PUBLIC_URL + item.img}
               alt={`${item.subtext}`}
             />
           ))}

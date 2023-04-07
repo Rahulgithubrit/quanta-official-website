@@ -1,6 +1,6 @@
 import styles from "./Resources.module.css";
-import Contact from "../Components/Contact";
-import Hero from "../Components/Hero";
+import Contact from "../components/Contact";
+import Hero from "../components/Hero";
 
 const Resources = () => {
   return (

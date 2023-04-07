@@ -1,5 +1,5 @@
 import React from "react";
-import "./Department.css";
+import "../styles/Department.css";
 import img1 from "../images/Vector 1.png";
 import img2 from "../images/Vector 2.png";
 import img3 from "../images/Vector 3.png";

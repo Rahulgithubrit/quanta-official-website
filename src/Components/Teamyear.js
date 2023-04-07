@@ -1,5 +1,5 @@
 import Teamcard from "./Teamcard";
-import styles from "./Teamyear.module.css";
+import styles from "../styles/Teamyear.module.css";
 
 const Teamyear = ({ props, year }) => {
   return (

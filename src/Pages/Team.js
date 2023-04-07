@@ -1,7 +1,7 @@
 import { teamThirdYear, teamFourthYear } from "../assets/teamInfo";
-import Teamyear from "../Components/Teamyear";
-import Contact from "../Components/Contact";
-import Hero from "../Components/Hero";
+import Teamyear from "../components/Teamyear";
+import Contact from "../components/Contact";
+import Hero from "../components/Hero";
 
 export default function Teampage() {
   return (

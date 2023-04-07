@@ -1,9 +1,9 @@
-import About from "../Components/About";
-import Contact from "../Components/Contact";
-import Department from "../Components/Department";
-import Hero from "../Components/Hero";
-import Slider from "../Components/Slider";
-import { team_src, events_src } from "../Components/slider_src";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Department from "../components/Department";
+import Hero from "../components/Hero";
+import Slider from "../components/Slider";
+import { team_src, events_src } from "../components/slider_src";
 
 const Landing = () => {
   return (

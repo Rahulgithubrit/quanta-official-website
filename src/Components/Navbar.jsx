@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../images/Logo.png";
 import { Link } from "react-router-dom";
-import styles from "./Navbar.module.css";
+import styles from "../styles/Navbar.module.css";
 import { Icon } from 'react-icons-kit';
 import { menu } from 'react-icons-kit/feather/menu'
 import { x } from 'react-icons-kit/feather/x';
