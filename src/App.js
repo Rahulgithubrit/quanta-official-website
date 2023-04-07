@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import Footer from "./components/Footer.jsx";
+import Footer from "./components/Footer.js";
 import Navbar from "./components/Navbar.jsx";
 import { Routes, Route } from "react-router-dom";
 const Resources = React.lazy(() => import("./pages/Resources"));
