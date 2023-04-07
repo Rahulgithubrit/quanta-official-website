@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
-import Navbar from "./components/Navbar";
+import Footer from "./components/Footer.jsx";
+import Navbar from "./components/Navbar.jsx";
 import { Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer";
 const Resources = React.lazy(() => import("./pages/Resources"));
 const Landing = React.lazy(() => import("./pages/Landing"));
 const Projects = React.lazy(() => import("./pages/Projects"));
