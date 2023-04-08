@@ -2,14 +2,17 @@ import { useState } from "react";
 import logo from "../images/Logo.png";
 import { Link } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
-import { Icon } from 'react-icons-kit';
-import { menu } from 'react-icons-kit/feather/menu'
-import { x } from 'react-icons-kit/feather/x';
+import { Icon } from "react-icons-kit";
+import { menu } from "react-icons-kit/feather/menu";
+import { x } from "react-icons-kit/feather/x";
+import Zealicon from "../pages/Zealicon";
 
 function Navbar() {
   const sendEmail = () => {
-    window.open("mailto:quanta.jssaten@gmail.com?subject=SendMail&body=Description")
-  }
+    window.open(
+      "mailto:quanta.jssaten@gmail.com?subject=SendMail&body=Description"
+    );
+  };
   const [nav, setnav] = useState(false);
 
   const changeBackground = () => {
@@ -21,7 +24,7 @@ function Navbar() {
   };
   const handleToggle = () => {
     setnav(!nav);
-  }
+  };
 
   window.addEventListener("scroll", changeBackground);
   return (
@@ -51,13 +54,20 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <button onClick={sendEmail} className={`${styles.menu_links} ${styles.active}`}>
+          {/* <button onClick={sendEmail} className={`${styles.menu_links} ${styles.active}`}>
             Contact us
-          </button>
+          </button> */}
+          <Link to="/zealicon" className={styles.menu_links}>
+            Zealicon
+          </Link>
         </li>
       </ul>
-      <div className='toggle-icon' onClick={handleToggle} >
-        {nav ? <Icon icon={x} className="iconx" size="28" /> : <Icon icon={menu} size="28" />}
+      <div className="toggle-icon" onClick={handleToggle}>
+        {nav ? (
+          <Icon icon={x} className="iconx" size="28" />
+        ) : (
+          <Icon icon={menu} size="28" />
+        )}
       </div>
     </nav>
   );

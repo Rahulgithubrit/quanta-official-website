@@ -1,5 +1,8 @@
 import styles from "./Projects.module.css";
 import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 const Projects = () => {
   const sendEmail = () => {
     window.open(
@@ -8,6 +11,7 @@ const Projects = () => {
   };
   return (
     <div>
+      <Navbar />
       <Hero
         bgImg={"assets/projects-hero-img.png"}
         bgPos={"75% 0%"}
@@ -81,18 +85,18 @@ const Projects = () => {
           </div>
         </div> */}
         {/* add projects above */}
-        
+
         <p className={styles.loaded}> To be Loaded Soon.....</p>
-</div>
-      
+      </div>
+
       <div className={styles.contact}>
         <p>
           Want to connect with us and be part of <span>Quanta</span> family?
         </p>
         <button onClick={sendEmail}>Contact us</button>
       </div>
-    </div> 
-       
+      <Footer />
+    </div>
   );
 };
 
