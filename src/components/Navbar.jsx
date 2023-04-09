@@ -5,7 +5,6 @@ import styles from "../styles/Navbar.module.css";
 import { Icon } from "react-icons-kit";
 import { menu } from "react-icons-kit/feather/menu";
 import { x } from "react-icons-kit/feather/x";
-import Zealicon from "../pages/Zealicon";
 
 function Navbar() {
   const sendEmail = () => {
@@ -57,9 +56,11 @@ function Navbar() {
           {/* <button onClick={sendEmail} className={`${styles.menu_links} ${styles.active}`}>
             Contact us
           </button> */}
+          <button>
           <Link to="/zealicon" className={styles.menu_links}>
-            Zealicon
+            Zealicon 2023
           </Link>
+          </button>
         </li>
       </ul>
       <div className="toggle-icon" onClick={handleToggle}>

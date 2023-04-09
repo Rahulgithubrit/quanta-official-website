@@ -5,12 +5,12 @@ export default function ZealiconHome() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className="bg-white px-6 min-h-[500px] text-center flex flex-col justify-center">
-      <h2 className="font-semibold text-[44px] leading-[55px] mb-8 text-[#1C55AB]">
+    <div className="bg-white px-6 h-[70vh] min-h-[500px] text-center flex flex-col justify-center align-middle">
+      <h2 className="font-semibold text-[2.5rem] leading-[55px] mb-8 text-[#1C55AB] lg:text-[3.5rem]">
         <span className="break-all">Registrations</span> opening soon!
       </h2>
 
-      <p className="font-normal text-2xl leading-7 mb-6 text-black">
+      <p className="font-[500] text-[1.2rem] leading-7 mb-6 text-black lg:text-[2rem]">
         Are you guys excited!?
       </p>
 
@@ -20,7 +20,7 @@ export default function ZealiconHome() {
             setYes(true);
             setShowModal(true);
           }}
-          className="bg-white font-normal text-xl leading-6 text-[#1C55AB] border border-[#9ebdef] rounded-xl px-6 py-2"
+          className="bg-white font-normal text-l leading-6 text-[#1C55AB] border border-[#9ebdef] rounded-xl px-6 py-2"
         >
           Yes 🤩
         </button>
@@ -29,7 +29,7 @@ export default function ZealiconHome() {
             setYes(false);
             setShowModal(true);
           }}
-          className="bg-white font-normal text-xl leading-6 text-[#00000066] border border-[#94949466] rounded-xl px-4 py-2"
+          className="bg-white font-normal text-l leading-6 text-[#00000066] border border-[#94949466] rounded-xl px-4 py-2"
         >
           Nope 👎🏻
         </button>
@@ -42,7 +42,7 @@ export default function ZealiconHome() {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-3xl font-semibold">
+                  <h3 className="text-3xl font-semibold text-black">
                     {yes ? "That's correct!" : "Wrong answer!"}
                   </h3>
                   <button

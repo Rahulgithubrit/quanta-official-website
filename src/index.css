@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 @font-face {
   font-family: "Nexa";
@@ -36,7 +37,7 @@ body {
   padding: 0;
   background-color: #0b0a08;
   color: white;
-  font-family: "Nexa", sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 
@@ -66,13 +67,14 @@ body {
 }
 
 button {
-  width: 10rem;
+  width: 11rem;
   height: 2.8rem;
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #ffffff;
   background: #8052ff;
   border-radius: 2.8rem;
+  text-align: center;
 }
 .toggle-icon {
   display: none;
