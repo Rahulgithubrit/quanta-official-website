@@ -21,7 +21,7 @@ const Landing = () => {
         />
         <About />
         <Slider src={team_src} sliderTitle={"Team Leads"} />
-        <Department />
+        {/* <Department /> */}
         <Slider src={events_src} sliderTitle={"Events"} />
         <Contact />
       </div>

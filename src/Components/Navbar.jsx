@@ -56,9 +56,11 @@ function Navbar() {
           {/* <button onClick={sendEmail} className={`${styles.menu_links} ${styles.active}`}>
             Contact us
           </button> */}
+          <button>
           <Link to="/zealicon" className={styles.menu_links}>
-            Zealicon
+            Zealicon 2023
           </Link>
+          </button>
         </li>
       </ul>
       <div className="toggle-icon" onClick={handleToggle}>
