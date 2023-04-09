@@ -8,11 +8,11 @@ import { x } from "react-icons-kit/feather/x";
 import Zealicon from "../pages/Zealicon";
 
 function Navbar() {
-  // const sendEmail = () => {
-  //   window.open(
-  //     "mailto:quanta.jssaten@gmail.com?subject=SendMail&body=Description"
-  //   );
-  // };
+  const sendEmail = () => {
+    window.open(
+      "mailto:quanta.jssaten@gmail.com?subject=SendMail&body=Description"
+    );
+  };
   const [nav, setnav] = useState(false);
 
   const changeBackground = () => {
