@@ -1,10 +1,10 @@
 import React, { Suspense } from "react";
 import Zealicon from "./pages/Zealicon.jsx";
 import { Routes, Route } from "react-router-dom";
-const Resources = React.lazy(() => import("./pages/Resources"));
-const Landing = React.lazy(() => import("./pages/Landing"));
-const Projects = React.lazy(() => import("./pages/Projects"));
-const Team = React.lazy(() => import("./pages/Team"));
+const Resources = React.lazy(() => import("./pages/Resources.js"));
+const Landing = React.lazy(() => import("./pages/Landing.js"));
+const Projects = React.lazy(() => import("./pages/Projects.js"));
+const Team = React.lazy(() => import("./pages/Team.js"));
 
 function App() {
   return (
