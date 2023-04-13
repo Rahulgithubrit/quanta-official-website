@@ -21,8 +21,7 @@
 
 .left h1 {
   font-size: 5rem;
-  background: linear-gradient(
-    to right,#1c55ab, #9965ef);
+  background: linear-gradient(to right, #1c55ab, #9965ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -41,97 +40,152 @@
 
 .second {
   color: #1c55ab;
+  font-weight: 600;
 }
 
 .vid {
   border-radius: 1rem;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
-.vid iframe
-{
+.vid iframe {
   width: 35rem;
   height: 24rem;
 }
 
-.section
-{
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.events{
- display: flex;
- flex-direction: row;
- gap: 1.8rem;
- align-items: center;
- justify-content: center;
+.events {
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.heading
-{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
+.events img {
+  width: 23vw;
+}
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+ 
 }
 
 @media (max-width: 430px) {
-
-  .hero
-  {
+  .hero {
     flex-direction: column;
   }
 
-  .left
-  {width: 80vw;
-   margin-left: -3rem;
+  .left {
+    width: 80vw;
+    margin-left: -3rem;
   }
 
-  .left h1
-  {
+  .left h1 {
     font-size: 3rem;
-  }  
+  }
 
-
-  .year 
-  {
+  .year {
     font-size: 1.5rem;
   }
 
-  .first
-  {
+  .first {
+    width: 90vw;
     font-size: 0.8rem;
   }
 
-  .second
-  {
+  .second {
+    width: 90vw;
     font-size: 0.8rem;
   }
 
-  .vid iframe
-  {
-    width: 23rem;
+  .vid iframe {
+    width: 22rem;
     height: 17rem;
   }
 
-  .events
-  {
+  .events {
     flex-direction: column;
-  }  
-
-  .section
-  {
-    margin-top: 14rem;
-    margin-bottom: 14rem;
-  } 
-
-  .heading
-  {
-    font-weight: 400;
-    font-size: 2rem;
   }
 
+  .section {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  .heading {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  .events img {
+    width: 90vw;
+  }
+}
+
+
+
+@media 
+       screen and (max-height: 667px)
+    
+{
+  .hero {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 80vw;
+    margin-left: -3rem;
+  }
+
+  .left h1 {
+    font-size: 3rem;
+  }
+
+  .year {
+    font-size: 1.5rem;
+  }
+
+  .first {
+    width: 90vw;
+    font-size: 0.8rem;
+  }
+
+  .second {
+    width: 90vw;
+    font-size: 0.8rem;
+  }
+
+  .vid iframe {
+    width: 22rem;
+    height: 17rem;
+  }
+
+  .events {
+    flex-direction: column;
+  }
+
+  .section {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  .heading {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 15rem;
+  }
+
+  .events img {
+    width: 90vw;
+  }
 }
